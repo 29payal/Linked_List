@@ -12,7 +12,7 @@ namespace Linkedlist
         {
             
             //Delete first element
-            Console.WriteLine("###################################################");
+           
             DeleteFirstElement deleteFirstElement = new DeleteFirstElement();
             Console.WriteLine("Before delete element the list is :");
             deleteFirstElement.AddEnd(56);
