@@ -45,6 +45,19 @@ namespace Linkedlist
             Console.WriteLine("Elements after insert");
             insertElement.InsertInBetween(30, 2);
             insertElement.Display();
+
+            //Delete first element
+            Console.WriteLine("###################################################");
+            DeleteFirstElement deleteFirstElement = new DeleteFirstElement();
+            Console.WriteLine("Before delete element the list is :");
+            deleteFirstElement.AddEnd(56);
+            deleteFirstElement.AddEnd(30);
+            deleteFirstElement.AddEnd(70);
+            deleteFirstElement.Display();
+            Console.WriteLine("___________________________________________________");
+            Console.WriteLine("After delete the element the list is :");
+            deleteFirstElement.DeleteFirstNode();
+            deleteFirstElement.Display();
             Console.ReadLine();
         }
     }
