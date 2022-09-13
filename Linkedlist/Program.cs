@@ -10,7 +10,7 @@ namespace Linkedlist
     {
         static void Main(string[] args)
         {
-            //NODE LINKED LIST
+            //NODE LINKED LIST//Reverse order
             Console.WriteLine("#############################################");
             CustomlinkedList customlinkedList = new CustomlinkedList();
             Console.WriteLine("Elements in reverse order :");
