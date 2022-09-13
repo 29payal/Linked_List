@@ -10,7 +10,10 @@ namespace Linkedlist
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("WELCOME TO LINKED LIST DATA STRUCTURE!");
+            SimpleLinkedList simpleLinkedList = new SimpleLinkedList();
+            Console.WriteLine("Print the elements of simple linked list :");
+            simpleLinkedList.Add();
+
             Console.ReadLine();
         }
     }
