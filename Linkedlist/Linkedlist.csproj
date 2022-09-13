@@ -52,7 +52,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseOrder.cs" />
     <Compile Include="SimpleLinkedList.cs" />
-    <Compile Include="UC8-Insert.cs" />
+    <Compile Include="UC7-Search.cs" />
+    <Compile Include="UC8-Insert4thElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

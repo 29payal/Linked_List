@@ -85,6 +85,16 @@ namespace Linkedlist
             insert.InsertInBetween(40, 3);
             insert.Display();
 
+            //Search
+            Searchvalue list = new Searchvalue();
+            Console.WriteLine("############################");
+            list.AddEnd(43);
+           
+            list.Search(56);
+            list.Display();
+
+
+            
             Console.ReadLine();
         }
     }
