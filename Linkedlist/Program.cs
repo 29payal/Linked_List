@@ -23,8 +23,15 @@ namespace Linkedlist
             customlinkedList.AddFirst(30);
             customlinkedList.AddFirst(56);
             customlinkedList.Display();
-            
 
+            Console.WriteLine("##################################################");
+            CustomLinkedList customLinkedList = new CustomLinkedList();
+            Console.WriteLine("Print the elements of the list in moving order :");
+            customLinkedList.AddEnd(56);
+            customLinkedList.AddEnd(30);
+            customLinkedList.AddEnd(70);
+            customLinkedList.Display();
+           
             Console.ReadLine();
         }
     }

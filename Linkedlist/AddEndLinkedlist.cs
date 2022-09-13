@@ -1,5 +1,4 @@
-﻿using Linkedlist;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +6,29 @@ using System.Threading.Tasks;
 
 namespace Linkedlist
 {
-    public class CustomlinkedList
+    public class CustomLinkedList
     {
         Node head;
+        public void AddEnd(int newData)
+        {
+            Node newNode = new Node(newData);
+
+            if (this.head == null)
+            {
+                this.head = newNode;
+            }
+            else
+            {
+                Node temp = this.head;
+                while (temp.next != null)
+                {
+                    temp = temp.next;
+                }
+                temp.next = newNode;
+            }
+
+        }
+
         public void Display()
         {
             Node temp = this.head;
@@ -22,12 +41,6 @@ namespace Linkedlist
                 Console.WriteLine(temp.data);
                 temp = temp.next;
             }
-        }
-        public void AddFirst(int newData)
-        {
-            Node newnode = new Node(newData);
-            newnode.next = head;
-            this.head = newnode;
         }
     }
 }
