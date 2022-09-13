@@ -12,7 +12,7 @@ namespace Linkedlist
         {
             
             //Delete last element
-            Console.WriteLine("##################################################");
+           
             DeleteLastElement deleteLastElement = new DeleteLastElement();
             Console.WriteLine("Before deleting last element in the list ");
             deleteLastElement.AddEnd(56);
