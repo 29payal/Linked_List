@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AddEndLinkedlist.cs" />
     <Compile Include="DeleteFirstElement.cs" />
+    <Compile Include="DeleteLastElement.cs" />
     <Compile Include="InsertElement.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
