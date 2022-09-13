@@ -11,15 +11,13 @@ namespace Linkedlist
         static void Main(string[] args)
         {
             //NODE LINKED LIST//Reverse order
-            Console.WriteLine("#############################################");
+           
             CustomlinkedList customlinkedList = new CustomlinkedList();
             Console.WriteLine("Elements in reverse order :");
             customlinkedList.AddFirst(70);
             customlinkedList.AddFirst(30);
             customlinkedList.AddFirst(56);
             customlinkedList.Display();
-            
-
             Console.ReadLine();
         }
     }
