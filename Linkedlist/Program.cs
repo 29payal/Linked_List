@@ -10,11 +10,6 @@ namespace Linkedlist
     {
         static void Main(string[] args)
         {
-            //SIMPLE LINKED LIST
-            SimpleLinkedList simpleLinkedList = new SimpleLinkedList();
-            Console.WriteLine("Print the elements of simple linked list :");
-            simpleLinkedList.Add();
-
             //NODE LINKED LIST
             Console.WriteLine("#############################################");
             CustomlinkedList customlinkedList = new CustomlinkedList();
