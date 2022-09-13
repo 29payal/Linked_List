@@ -11,7 +11,7 @@ namespace Linkedlist
         static void Main(string[] args)
         {
              //Node linked list //moving order
-            Console.WriteLine("##################################################");
+      
             CustomLinkedList customLinkedList = new CustomLinkedList();
             Console.WriteLine("Print the elements of the list in moving order :");
             customLinkedList.AddEnd(56);
