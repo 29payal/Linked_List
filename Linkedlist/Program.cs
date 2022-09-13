@@ -12,7 +12,7 @@ namespace Linkedlist
         {
             
             //insert
-            Console.WriteLine("###############################################");
+           
             InsertElement insertElement = new InsertElement();
             Console.WriteLine("Elements before insert");
             insertElement.AddEnd(56);
