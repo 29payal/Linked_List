@@ -36,13 +36,13 @@ namespace Linkedlist
             //insert
             Console.WriteLine("###############################################");
             InsertElement insertElement = new InsertElement();
-            Console.WriteLine("Elements before insert");
+            Console.WriteLine("Elements before insert :");
             insertElement.AddEnd(56);
             insertElement.AddEnd(70);
             insertElement.Display();
             Console.WriteLine("___________________________________");
 
-            Console.WriteLine("Elements after insert");
+            Console.WriteLine("Elements after insert :");
             insertElement.InsertInBetween(30, 2);
             insertElement.Display();
 
@@ -62,15 +62,28 @@ namespace Linkedlist
             //Delete last element
             Console.WriteLine("##################################################");
             DeleteLastElement deleteLastElement = new DeleteLastElement();
-            Console.WriteLine("Before deleting last element in the list ");
+            Console.WriteLine("Before deleting last element in the list: ");
             deleteLastElement.AddEnd(56);
             deleteLastElement.AddEnd(30);
             deleteLastElement.AddEnd(70);
             deleteLastElement.Display();
             Console.WriteLine("______________________________________________");
-            Console.WriteLine("After deleting last element in the list ");
+            Console.WriteLine("After deleting last element in the list: ");
             deleteLastElement.DeleteLastNode();
             deleteLastElement.Display();
+
+            //insert 4th element
+            Console.WriteLine("#############################################");
+            Insert insert = new Insert();
+            Console.WriteLine("Elements before insert the 4th element :");
+            insert.AddEnd(56);
+            insert.AddEnd(30);
+            insert.AddEnd(70);
+            insert.Display();
+            Console.WriteLine("_____________________________________________");
+            Console.WriteLine("Elements after insert the 4th element in 3rd position :");
+            insert.InsertInBetween(40, 3);
+            insert.Display();
 
             Console.ReadLine();
         }
